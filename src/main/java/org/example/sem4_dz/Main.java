@@ -20,7 +20,8 @@ public class Main {
         } catch (MyArraySizeException s) {
             System.out.println(s.getMessage());
         } catch (MyArrayDataException d) {
-            System.out.printf("Значение элемента матрицы [%d][%d] не является числовым.", d.line, d.column);
+            System.out.printf("Значение элемента матрицы [%d][%d] не является числовым.",
+                    d.getLine(), d.getColumn());
         }
     }
 }

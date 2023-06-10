@@ -2,7 +2,7 @@ package org.example.sem4_dz;
 
 public class MyArraySizeException extends ArrayIndexOutOfBoundsException {
 
-    String message;
+    private String message;
 
     public MyArraySizeException(String message) {
         this.message = message;
